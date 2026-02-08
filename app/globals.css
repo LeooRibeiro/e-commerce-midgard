@@ -1,26 +1,12 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* Color Theme Swatches in Hex */
+.nordic-white { color: #DDE2E3; }
+.nordic-cyan { color: #9AACB8; }
+.nordic-orange { color: #B37C57; }
+.nordic-grayDark { color: #3C455C; }
+.nordic-brow { color: #60412B; }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+
