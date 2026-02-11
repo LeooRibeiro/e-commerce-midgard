@@ -1,11 +1,18 @@
-import Button from "../ui/Button"
+import Button from "../ui/Button";
+import Link from "next/link";
 
 export default function NavMenu() {
   return (
     <nav className="flex gap-6">
-      <Button variant="ghost">HOME</Button>
-      <Button variant="ghost">SOBRE</Button>
-      <Button variant="ghost">PRODUTOS</Button>
+      <Link href="/">
+        <Button variant="ghost">HOME</Button>
+      </Link>
+      <Link href="/sobre">
+        <Button variant="ghost">SOBRE</Button>
+      </Link>
+      <Link href="/produtos">
+        <Button variant="ghost">PRODUTOS</Button>
+      </Link>
     </nav>
-  )
+  );
 }
