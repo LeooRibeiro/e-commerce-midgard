@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-
+ 
 /* Color Theme Swatches in Hex */
 .nordic-white { color: #DDE2E3; }
 .nordic-cyan { color: #9aacb8; }
@@ -8,5 +8,15 @@
 .nordic-grayDark { color: #3C455C; }
 .nordic-brow { color: #60412B; }
 
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
-
+.animate-scroll {
+  animation: scroll linear infinite;
+}

@@ -8,7 +8,7 @@ export default function Button({ children, variant = "primary" }: ButtonProps) {
     "rounded-md px-4 py-2 text-md font-extrabold transition"
 
   const variants = {
-    primary: "bg-gray-700 text-white hover:bg-gray-900 cursor-pointer",
+    primary: "bg-gray-950 text-yellow-500 hover:border-yellow-500 hover:border-2 overflow-hidden cursor-pointer",
     ghost: "text-zinc-700 hover:text-zinc-900 cursor-pointer",
   }
 

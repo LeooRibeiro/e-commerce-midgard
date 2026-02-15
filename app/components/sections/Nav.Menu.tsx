@@ -1,17 +1,16 @@
-import Button from "../ui/Button";
 import Link from "next/link";
 
 export default function NavMenu() {
   return (
     <nav className="flex gap-6">
-      <Link href="/">
-        <Button variant="ghost">HOME</Button>
+      <Link href={"/"}>
+        <h3 className="font-extrabold text-lg text-yellow-500">HOME</h3>
       </Link>
-      <Link href="/sobre">
-        <Button variant="ghost">SOBRE</Button>
+      <Link href={"/sobre"}>
+        <h3 className="font-extrabold text-lg text-yellow-500">SOBRE</h3>
       </Link>
-      <Link href="/produtos">
-        <Button variant="ghost">PRODUTOS</Button>
+      <Link href={"/produtos"}>
+        <h3 className="font-extrabold text-lg text-yellow-500">PRODUTOS</h3>
       </Link>
     </nav>
   );

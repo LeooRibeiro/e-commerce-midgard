@@ -9,7 +9,7 @@ export default function Demonstration() {
         {/* grid 1 */}
         <div className="relative col-span-4 row-span-3">
           <Image
-            src="/modeloViking3.jpg"
+            src="/acessorio1.jpg"
             alt="Background"
             fill
             priority
@@ -18,7 +18,7 @@ export default function Demonstration() {
         </div>
 
         {/* grid 2 */}
-        <div className="relative flex flex-col justify-end bg-gray-200 p-6 h-80 col-span-2 row-span-3 col-start-5">
+        <div className="relative flex flex-col justify-end bg-zinc-900 p-6 h-80 col-span-2 row-span-3 col-start-5">
           <div className="w-full h-full z-0">
             <Image
               src="/yggdrasil.png"
@@ -29,10 +29,10 @@ export default function Demonstration() {
             />
           </div>
           <div className="z-20">
-            <h3 className="text-black text-lg font-semibold">
+            <h3 className="text-yellow-500 text-lg font-semibold">
               Descubra nossa cultura
             </h3>
-            <p className="text-slate-500 text-sm mb-2">
+            <p className="text-slate-300 text-sm mb-2">
               Movidos a ferro e fogo, para uma experiência única.
             </p>
             <Link href="/products">
@@ -42,7 +42,7 @@ export default function Demonstration() {
         </div>
 
         {/* grid 3 */}
-        <div className="relative flex flex-col justify-end bg-gray-200 p-6 w-auto h-80 col-span-2 row-span-3 row-start-4">
+        <div className="relative flex flex-col justify-end bg-zinc-900 p-6 w-auto h-80 col-span-2 row-span-3 row-start-4">
           <Image
             src="/yggdrasil.png"
             alt="Background"
@@ -51,10 +51,10 @@ export default function Demonstration() {
             className="object-cover"
           />
 
-          <h3 className="text-black text-lg font-semibold">
+          <h3 className="text-yellow-500 text-lg font-semibold">
             O Norte é para todos
           </h3>
-          <p className="text-slate-500 text-sm mb-2">
+          <p className="text-slate-300 text-sm mb-2"> 
             Saiba como o norte é para todos!
           </p>
 
